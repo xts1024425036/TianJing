@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f5f5f5;
+	font:12px/1.5em Verdana,"Lucida Grande",Arial,Helvetica,sans-serif;
+}
+body a:hover{
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	background:  url(../img/home/tc2.png) 0 0 no-repeat;
+}
+.logo{
+	width: 63%;
+	height: 200px;
+	margin: 0 auto;
+	background:  url(../img/home/logo.png) 0 56% no-repeat;
+	-webkit-background-size: 100% 80%;
+	background-size: 100% 80%;
+}
+/*@media screen and (max-width: 1200px){
+	.top{
+		height: 180px;
+	}
+	.logo{
+		height: 160px;
+		margin-top: 10px;
+		width: 90%;
+	}
+}
+@media screen and (max-width: 992px){
+	.top{
+		height: 140px;
+	}
+	.logo{
+		height: 120px;
+		margin-top: 10px;
+		width: 90%;
+	}
+}
+@media screen and (max-width: 768px){
+	.top{
+		height: 100px;
+	}
+	.logo{
+		height: 80px;
+		width: 90%;
+	}
+}
+@media screen and (max-width: 420px){
+	.top{
+		height: 80px;
+	}
+	.logo{
+		height: 60px;
+		width: 90%;
+	}
+}*/
+.navb{
+	width: 100%;
+	background-color: #0070c0;
+}
+.nav{
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav>li {
+    display: inline-block;
+    margin-left: 36px;
+    font-size: 24px;
+    width: 120px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.nav>li>a {
+    padding: 0px 0;
+    line-height: 30px;
+    font-size: 24px;
+    color: #fff;
+}
+.nav>li>a.active {
+    background-color: #fff;
+    color: #111;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.nav>li>a:hover{
+    background-color: #fff;
+    color: #111;
+    border-radius: 5px;
+}
+
+/*@media screen and (max-width: 768px){
+	.navbar-default {
+	    padding-top: 0;
+	    padding-bottom: 0;
+	}
+	.navbar-brand img {
+	    height: 24px;
+	}
+	.nav>li {
+	    padding: 0;
+	    margin: 0;
+	    width: 100%;
+	    border-bottom: none;
+	}
+	.zhao{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+	.nav>li>a {
+	    padding: 0;
+	    width: 100%;
+	    line-height: 45px;
+	    border-bottom: 1px solid #eee;
+	    font-size: 22px;
+	    color: #fff;
+	    position: relative;
+	}
+}*/
+.navigation{
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	height: 42px;
+	line-height: 42px;	
+	font-size: 16px;
+}
+.navigation span a{
+	color: #111;
+}
+.navigation .active a{
+	color: #0070c0;
+}
+.content{
+	width: 1200px;
+	margin: 15px auto;
+	overflow: hidden;
+}
+.about{
+	width: 20%;
+	float: left;
+	background-color: #fff;
+}
+.about li{
+	border-bottom: 1px dashed #d9d9d9;
+	list-style: none;
+	padding-left: 15px;
+}
+.about li:nth-child(1){
+	height: 80px;
+	background-color: #0070c0;
+	border: none;
+	font-size: 30px;
+	color: #FFF;
+	line-height: 80px;
+}
+.about li:not(:first-child){
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+}
+.about li span{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+.about li a:hover{
+	color: #0070c0;
+}
+.about li a{
+	color: #111;
+}
+.about li .active{
+	color: #0070c0;
+}
+.p-list1{
+	height: 46px;
+	line-height: 46px;	
+	list-style: none;
+	border-bottom: 2px solid #2979c9;
+	margin: 0;
+}
+.p-list1 span:nth-child(1){
+	display: inline-block;
+	width: 5px;
+	height: 16px;
+	margin-left: 20px;
+	background-color: #25b015;
+}
+.p-list1 span:nth-child(2){
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	line-height: 40px;
+	letter-spacing: 0px;
+	color: #25b015;
+}
+.account{
+	width: 78%;
+	float: right;
+	background-color: #fff;
+}
+.account p{
+	 text-indent: 2em;
+	 font-size: 16px;
+	 line-height: 60px;
+	 width: 96%;
+	 margin: 15px auto;
+}
+h4{
+	margin-left: 3%;
+}
+.account p span{
+	color: #ff3f3f;
+}
+.account h4:last-child{
+	color: #ff3f3f;
+}
+.footer{
+	text-align: center;
+	background-color: #0070c0;
+	color: #fff;
+	overflow: hidden;
+}
+/*@media screen and (max-width: 1200px){
+	.content{
+		width: 90%;
+	}
+	.about{
+		float: none;
+		width: 100%;
+	}
+	.account{
+		width: 100%;
+		float: none;
+		background-color: #fff;
+	}
+	.navigation{
+		display: none;
+	}
+	.account p{
+		line-height: 32px;
+	}
+}*/
+@media screen and (max-width: 768px){
+	.top{
+		width: 1200px;
+	}
+	.navbar {
+	    background-color: #0070c0;
+	    width: 1200px;
+	}
+	.footer {
+	    width: 1200px;
+	}
+	.nav{
+		width: 1200px;
+	}
+	.navb{
+		width: 1200px;
+	}
+}
